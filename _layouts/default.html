@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div id="main">
+    {% include headerv2.html %}
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/portofolio">Portofolio</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+        {{ content }}
+      
+    {% include footerv2.html %}   
+  </div>
+
+
+
+</body>
+</html>
